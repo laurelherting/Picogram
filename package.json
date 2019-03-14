@@ -1,9 +1,12 @@
 {
   "name": "picoweb-beta",
   "version": "1.0.0",
-  "description": "",
+  "description": "Amplify iOS",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "@aws-amplify/cli": "^1.1.7",
+    "graphql": "^0.13.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
